@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".RegisterationActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+
+
+        android:id="@+id/profileImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="40dp"
+        android:src="@color/colorWhite"
+
+
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/profileImageView"
+       android:layout_alignParentBottom="true"
+        >
+
+
+
+    <EditText
+        android:id="@+id/nameEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:hint="@string/hintName"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/emailEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:hint="@string/hintEmail"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/passEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:hint="@string/hintPassword"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/registerBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/registerBtnText"
+        android:background="@color/colorWhite"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:id="@+id/backtoLoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/backtoLoginPageText"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorBlack"
+        />
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

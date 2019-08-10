@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/tabs_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/profileLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/profileLabel"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/usersLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/usersLabel"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/notifiationsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:text="@string/notificationsLabel"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="667dp"
+        android:id="@+id/mainPager"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp">
+
+
+    </android.support.v4.view.ViewPager>
+    
+    
+    
+    
+</RelativeLayout>
